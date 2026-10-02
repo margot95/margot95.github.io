@@ -39,13 +39,14 @@
 
   .profile-photo {
   display: block;
-  margin: 0 auto 1.2rem;
+  margin: 0;
   width: 140px;
   height: 140px;
   object-fit: cover;
   object-position: center 20%;
   border-radius: 50%;
   border: 2px solid var(--line);
+  flex-shrink: 0;
   }
 
   h1 {
@@ -163,9 +164,10 @@
     <header>
       <h1>Margot Berthelin</h1>
       <p class="subtitle">PhD student in language acquisition</p>
+      <img src="IMG_20190113_215004.jpg" alt="Margot Berthelin" class="profile-photo">
     </header>
 
-    <img src="IMG_20190113_215004.jpg" alt="Margot Berthelin" class="profile-photo">
+    
 
     <nav>
       <button class="tab-link active" data-tab="about">About</button>
